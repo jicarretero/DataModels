@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "Guard-Agent-definition",
+  "type": "object",
+  "properties": {
+    "security_properties": {"type": "object", "$ref": "security properties json"},
+    "configuration_properties": {"type": "object", "$ref": "configuration properties json"},
+    "data_schema": {"type": "string", "format": "url"}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "guard-agent-configuration-properties",
+  "definitions": {
+    "configuration-properties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "type": {"type": "string", "enum": ["number", "integer", "string"]},
+          "description": {"type": "string"},
+          "value": {"type": "string"}
+        },
+        "required": ["name", "type", "description", "value"],
+        "additionalProperties": false
+      },
+      "additionalItems": false,
+      "minItems": 1
+    }
+  }
+}

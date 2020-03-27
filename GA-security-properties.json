@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "guard-agent-security-properties",
+  "definitions": {
+    "security-properties": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string", "pattern": "^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$"},
+        "vendor": {"type": "string"},
+        "patch": {"type": "string"},
+        "callback_url": {"type": "string"}
+      },
+      "required": ["name", "version", "vendor", "patch", "callback_url"],
+      "additionalProperties": false
+    }
+  }
+}
