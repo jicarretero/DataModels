@@ -4,6 +4,7 @@
 
   "definitions": {
     "security-properties": {
+      "$id": "security-properties",
       "type": "object",
       "properties": {
         "name": {"type": "string"},

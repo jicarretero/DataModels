@@ -3,6 +3,7 @@
   "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-configuration-properties.json",
   "definitions": {
     "configuration-properties": {
+      "$id": "#configuration-properties",
       "type": "array",
       "items": {
         "type": "object",
