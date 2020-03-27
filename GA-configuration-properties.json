@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "guard-agent-configuration-properties",
+  "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-configuration-properties.json",
   "definitions": {
     "configuration-properties": {
       "type": "array",

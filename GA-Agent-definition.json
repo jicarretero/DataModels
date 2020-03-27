@@ -1,10 +1,14 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "Guard-Agent-definition",
+  "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-Agent-definition.json",
   "type": "object",
   "properties": {
-    "security_properties": {"type": "object", "$ref": "security properties json"},
-    "configuration_properties": {"type": "object", "$ref": "configuration properties json"},
+    "security-properties": {
+      "$ref": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-security-properties.json#/definitions/security-properties"
+    },
+    "configuration-properties": {
+      "$ref": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-configuration-properties.json#/definitions/configuration-properties"
+    },
     "data_schema": {"type": "string", "format": "url"}
   }
 }

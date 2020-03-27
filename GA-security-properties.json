@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "guard-agent-security-properties",
+  "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-security-properties.json",
+
   "definitions": {
     "security-properties": {
       "type": "object",
