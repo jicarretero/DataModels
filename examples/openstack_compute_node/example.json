@@ -1,0 +1,200 @@
+{
+"compute_node": "wolfsburg-compute01",
+"vms": [
+  {
+    "pid": 775,
+    "cpu": 1.3,
+    "mem": 1.2,
+    "uuid": "4f23e9ef-b651-4a0e-9dbb-05badd1430c3",
+    "interfaces": [
+      {
+        "name": "tapc792928b-1e",
+        "rbytes": 32355784,
+        "rpackets": 398434,
+        "tbytes": 645861438,
+        "tpackets": 4634390
+      }
+    ]
+  },
+  {
+    "pid": 5579,
+    "cpu": 19.9,
+    "mem": 3.9,
+    "uuid": "8bad9f6c-8361-4a84-8fbc-4e4f8402e772",
+    "interfaces": [
+      {
+        "name": "tap5b5bfe9f-cd",
+        "rbytes": 5412461426,
+        "rpackets": 15981690,
+        "tbytes": 6841760118,
+        "tpackets": 24570918
+      }
+    ]
+  },
+  {
+    "pid": 5923,
+    "cpu": 15.6,
+    "mem": 5.1,
+    "uuid": "d95c976b-64ac-4cda-acaf-095b1f1e9641",
+    "interfaces": [
+      {
+        "name": "tap70afbe66-c4",
+          "rbytes": 43383826401,
+          "rpackets": 332053958,
+          "tbytes": 55500266653,
+          "tpackets": 330230975
+      }
+    ]
+  },
+  {
+    "pid": 5980,
+    "cpu": 15.7,
+    "mem": 5.0,
+    "uuid": "19c71c4e-0c8b-4837-92ce-8758b1525ebc",
+    "interfaces": [
+      {
+        "name": "tapdf855a17-49",
+          "rbytes": 50343493379,
+          "rpackets": 350902972,
+          "tbytes": 55762589337,
+          "tpackets": 361425157
+      }
+    ]
+  },
+  {
+    "pid": 8155,
+    "cpu": 1.6,
+    "mem": 2.5,
+    "uuid": "574085f2-7308-4ca8-a52a-2d48aad4bfe7",
+    "interfaces": [
+      {
+        "name":"tap0adabf96-16",
+        "rbytes": 89355898,
+        "rpackets": 561005,
+        "tbytes": 890562347,
+        "tpackets": 1581818
+      }
+    ]
+  },
+  {
+    "pid": 10883,
+    "cpu": 16.3,
+    "mem": 2.5,
+    "uuid": "39443b0c-5aa2-4ef2-ae8b-41feac9e9c60",
+    "interfaces": [
+      {
+        "name": "tap511ed251-f8",
+        "rbytes": 16809941232,
+        "rpackets": 86886146,
+        "tbytes": 32196698821,
+        "tpackets": 134067617
+      }
+    ]
+  },
+  {
+    "pid": 20039,
+    "cpu": 1.8,
+    "mem": 1.8,
+    "uuid": "0d1bbb2a-e1ca-472c-9680-6ab6620ff08f",
+    "interfaces": [
+      {
+        "name": "tapc8540254-22",
+        "rbytes": 11865682,
+        "rpackets": 207360,
+        "tbytes": 527664014,
+        "tpackets": 3626052
+      }
+    ]
+  },
+  {
+    "pid": 23181,
+    "cpu": 10.1,
+    "mem": 5.0,
+    "uuid": "c77e2601-59e8-4ba3-8f28-91bc50dcf3ca",
+    "interfaces": [
+      {
+        "name": "tap8630a992-ee",
+        "rbytes": 3003819629,
+        "rpackets": 25539030,
+        "tbytes": 9756185548,
+        "tpackets": 28231168
+      }
+    ]
+  },
+  {
+    "pid": 25989,
+    "cpu": 1.9,
+    "mem": 2.5,
+    "uuid": "8c9d469b-5b33-4910-a946-1ec7436d0377",
+    "interfaces": [
+      {
+        "name": "tape506a1b0-a5",
+        "rbytes": 590992505,
+        "rpackets": 2925590,
+        "tbytes": 976541138,
+        "tpackets": 6824359
+      }
+    ]
+  },
+  {
+    "pid": 26919,
+    "cpu": 1.5,
+    "mem": 5.0,
+    "uuid": "c933bfa8-e143-47ba-8a6a-9767eb2b6b83",
+    "interfaces": [
+      {
+        "name": "tapadb0e4fc-b1",
+        "rbytes": 73562468,
+        "rpackets": 1244646,
+        "tbytes": 4058696165,
+        "tpackets": 2601299
+      }
+    ]
+  },
+  {
+    "pid": 30213,
+    "cpu": 95.4,
+    "mem": 3.9,
+    "uuid": "47335446-97f5-4d3e-a635-3b09f9d2d56c",
+    "interfaces": [
+      {
+        "name": "tape72a03f1-c8",
+        "rbytes": 12185350393,
+        "rpackets": 80986092,
+        "tbytes": 126476589094,
+        "tpackets": 107244932
+      }
+    ]
+  },
+  {
+    "pid": 38018,
+    "cpu": 11.9,
+    "mem": 5.0,
+    "uuid": "6e7ebe2e-b3f5-4c41-aca7-839d51a9fe43",
+    "interfaces": [
+      {
+        "name": "tap28b162f4-b9",
+        "rbytes": 83210649683,
+        "rpackets": 217812838,
+        "tbytes": 101875894509,
+        "tpackets": 224225999
+      }
+    ]
+  },
+  {
+    "pid": 44239,
+    "cpu": 1.4,
+    "mem": 4.3,
+    "uuid": "58c8752f-ca76-45ba-92d4-8053a54fa47a",
+    "interfaces": [
+      {
+        "name": "tapc7f426bf-83",
+        "rbytes": 516556688,
+        "rpackets": 3662725,
+        "tbytes": 3749483279,
+        "tpackets": 8477880
+      }
+    ]
+  }
+]
+}
