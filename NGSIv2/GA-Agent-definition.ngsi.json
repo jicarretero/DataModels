@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-Agent-definition.json",
+  "type": "object",
+  "properties": {
+    "id": {"type": "string"},
+    "type": {"type": "string", "pattern":"^GuardAgent$"},
+    "security_properties": {
+      "type": "object",
+      "properties": {
+        "type": {"type": "string"},
+        "value": {
+            "$ref": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-security-properties.json#/definitions/security_properties"
+        },
+        "metadata": {
+           "type": "object"
+        }
+      }
+    },
+    "configuration_properties": {
+      "type": "object",
+      "properties": {
+        "type": {"type": "string"},
+        "value": {
+          "$ref": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-configuration-properties.json#/definitions/configuration_properties"
+        },
+        "metadata": {
+           "type": "object"
+        }
+      }
+    },
+    "data_schema": {
+      "type": "object",
+      "properties": {
+        "type": {"type": "string"},
+        "value": {"type": "string", "format": "url"},
+        "metadata": {
+           "type": "object"
+        }
+      }
+    }
+  },
+  "required": ["id", "type"]
+}

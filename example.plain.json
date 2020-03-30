@@ -1,0 +1,26 @@
+{
+  "id": "urn:exampleplain:noncompliant:ngsi",
+  "type": "GuardAgent",
+  "security_properties": {
+      "name": "Openstack GUARD Agent",
+      "version": "0.0.2",
+      "vendor": "FIWARE Foundation e.V.",
+      "patch": "",
+      "callback_url": "http://localhost:3038/guard-agent"
+  },
+  "configurations_properties": [
+      {
+        "name": "time_between_probes",
+        "type": "integer",
+        "description": "Time ellapsed between probing data twice",
+        "value": "60"
+      },
+      {
+        "name": "time_between_pings",
+        "type": "integer",
+        "description": "Time ellapsed between pinging the Local Controller",
+        "value": "60"
+      }
+  ],
+  "data_schema": "https://raw.githubusercontent.com/jicarretero/DataModels/master/examples/openstack_compute_node/openstack_compute_node.json"
+}

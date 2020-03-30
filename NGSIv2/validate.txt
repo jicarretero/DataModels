@@ -1,0 +1,9 @@
+ajv -s GA-Agent-definition.ngsi.json -r ../GA-security-properties.json -r ../GA-configuration-properties.json  -d example.ngsi.v2.json
+
+
+# Test with Orion
+curl -X POST http://46.17.108.64:1026/v2/entities -H "Content-type: application/json" -d @example.ngsi.v2.json
+
+curl http://46.17.108.64:1026/v2/entities/urn:openstack:guard-agent:1111000011110000&option=value
+
+curl http://46.17.108.64:1026/v2/entities/urn:openstack:guard-agent:1111000011110000/attrs/security-properties

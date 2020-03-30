@@ -3,8 +3,8 @@
   "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/GA-security-properties.json",
 
   "definitions": {
-    "security-properties": {
-      "$id": "security-properties",
+    "security_properties": {
+      "$id": "security_properties",
       "type": "object",
       "properties": {
         "name": {"type": "string"},

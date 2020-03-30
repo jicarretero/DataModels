@@ -1,0 +1,1 @@
+ajv -s GA-Agent-definition.json -r GA-security-properties.json -r GA-configuration-properties.json  -d example.plain.json
