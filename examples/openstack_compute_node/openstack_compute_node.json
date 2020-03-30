@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/examples/openstack_compute_node/master/openstack_compute_node.json",
+  "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/examples/openstack_compute_node/openstack_compute_node.json",
   "type": "object",
   "properties": {
     "vms": {
