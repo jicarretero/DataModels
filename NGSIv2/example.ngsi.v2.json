@@ -1,7 +1,7 @@
 {
   "id": "urn:openstack:guard-agent:1111000011110000",
   "type": "GuardAgent",
-  "security-properties": {
+  "security_properties": {
     "type": "object",
     "value": {
       "name": "Openstack GUARD Agent",
@@ -11,7 +11,7 @@
       "callback_url": "http://localhost:3038/guard-agent"
     }
   },
-  "configurations-properties": {
+  "configurations_properties": {
     "type": "array",
     "value": [
       {
