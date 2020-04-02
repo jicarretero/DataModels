@@ -3,6 +3,8 @@
   "$id": "https://raw.githubusercontent.com/jicarretero/DataModels/master/examples/openstack_compute_node/openstack_compute_node.json",
   "type": "object",
   "properties": {
+    "id": {"type": "string"},
+    "type": {"type": "string"},
     "observedAt": {"type": "string", "format": "date-time"},
     "vms": {
       "type": "array",
